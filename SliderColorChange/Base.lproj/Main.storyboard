@@ -78,19 +78,19 @@
                                             <slider opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Gm-ym-11M">
                                                 <rect key="frame" x="-2" y="0.0" width="232" height="31"/>
                                                 <connections>
-                                                    <action selector="redSliderChange" destination="BYZ-38-t0r" eventType="valueChanged" id="ewn-qr-vkb"/>
+                                                    <action selector="slidersColorViewChange" destination="BYZ-38-t0r" eventType="valueChanged" id="ewn-qr-vkb"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.69999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ojv-EO-nj5">
                                                 <rect key="frame" x="-2" y="43" width="232" height="31"/>
                                                 <connections>
-                                                    <action selector="greenSliderChange" destination="BYZ-38-t0r" eventType="valueChanged" id="cX0-fY-LQH"/>
+                                                    <action selector="slidersColorViewChange" destination="BYZ-38-t0r" eventType="valueChanged" id="n4c-zl-T0P"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.90000000000000002" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ipC-WL-G3G">
                                                 <rect key="frame" x="-2" y="86" width="232" height="31"/>
                                                 <connections>
-                                                    <action selector="blueSliderChange" destination="BYZ-38-t0r" eventType="valueChanged" id="est-pM-rQW"/>
+                                                    <action selector="slidersColorViewChange" destination="BYZ-38-t0r" eventType="valueChanged" id="ODq-1c-xdb"/>
                                                 </connections>
                                             </slider>
                                         </subviews>

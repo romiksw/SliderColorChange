@@ -27,17 +27,7 @@ class ViewController: UIViewController {
         colorView.layer.cornerRadius = 10
     }
     
-    @IBAction func redSliderChange() {
-        setValueLabels()
-        setViewColor()
-    }
-    
-    @IBAction func greenSliderChange() {
-        setValueLabels()
-        setViewColor()
-    }
-    
-    @IBAction func blueSliderChange() {
+    @IBAction func slidersColorViewChange() {
         setValueLabels()
         setViewColor()
     }
