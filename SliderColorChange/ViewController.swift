@@ -21,10 +21,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setViewColor()
         setValueLabels()
         
         colorView.layer.cornerRadius = 10
+        
+        redSlider.tintColor = .red
+        greenSlider.tintColor = .green
+        blueSlider.tintColor = .blue
     }
     
     @IBAction func slidersColorViewChange() {
