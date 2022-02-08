@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setViewColor()
         setValueLabels()
+        
+        colorView.layer.cornerRadius = 10
     }
     
     @IBAction func redSliderChange() {
