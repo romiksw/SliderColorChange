@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         
         redSlider.tintColor = .red
         greenSlider.tintColor = .green
-        blueSlider.tintColor = .blue
     }
     
     @IBAction func slidersColorViewChange() {
@@ -42,7 +41,8 @@ class ViewController: UIViewController {
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
             blue: CGFloat(blueSlider.value),
-            alpha: 1)
+            alpha: 1
+        )
     }
     
     private func setValueLabels() {
